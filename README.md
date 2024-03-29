@@ -24,6 +24,16 @@ This is a portfolio website built using HTML5, CSS3, and JavaScript. It showcase
 1. Clone or download the repository to your local machine.
 2. Open `index.html` in your preferred web browser.
 
+## Run the Application Online
+You can access the live version of this portfolio website by clicking [here](https://mthobisim.netlify.app/).
+
+## How to Run
+To run this project locally, follow these steps:
+
+1. Clone this repository to your local machine using 
+2. Navigate to the project directory: 
+3. Open `index.html` in your preferred web browser.
+
 ## Configuration
 - To add your projects, update the HTML structure in `index.html` under the "Project Showcase" section.
 - Modify `script.js` to customize functionality such as WhatsApp API integration and scroll-to-top behavior.
