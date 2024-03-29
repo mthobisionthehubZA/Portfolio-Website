@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!-- box icons -->
+    <link  href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <!-- custom css -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/c48139150e.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <!-- header design -->
+    <header class="header">
+        <a href="#" class="logo">Portfolio.</a>
+       <!-- Hamburger Icon -->
+    <div id="menu-icon">
+        <i class="fas fa-bars"></i>
+    </div>  
+      
+        <nav class="navbar">
+                <a href="#home" style="--i:1"  class="active">Home</a>
+                <a href="#about" style="--i:2">About</a>
+                <a href="#services" style="--i:3">Services</a>
+                <a href="#contact" style="--i:4">Contact</a>
+                </a>
+        </nav> 
+    </header>
+ 
+    <!-- home section design-->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, I'm</h3>
+            <h1>Mthobisi Maseko</h1>
+            <h3>And I'm a <br><span class="skills">Software Developer</span></h3>
+            <div class="social-media">
+                <a href="https://github.com/mthobisionthehubZA" id="githover" ><i class='bx bxl-github'></i></a>
+                <a href="https://www.youtube.com/channel/UCzUasHPt5nt8pIy36Y-rOaw"><i class='bx bxl-youtube'></i></a>
+                <a href="#"><i class='bx bxl-linkedin'></i></a>
+            </div>
+             <a href="resume/resume Mthobisi Maseko.pdf" download class="btn">Download CV</a>
+        </div>
+        <div class="home-img">
+            <div class="glowing-circle">
+                <img src="images/_Me.png" alt="Profile Image">
+            </div>
+        </div> 
+        </div>
+    </section>
+
+    <!-- about section design -->
+    <section class="about" id="about">
+        <br><br><br>
+        <div class="about-container">
+            <div class="row">
+                <div class="about-col-1">
+                    <div class="glowing-circle">
+                        <img src="images/_Me.png">
+                    </div>
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About <span>Me</span></h1></br>
+                    <p>Welcome to my web portfolio! I'm Mthobisi Maseko, a skilled and 
+                        certified software developer</p> 
+                    <p>with a passion for creating beautiful, responsive, and 
+                        user-friendly systems.</p>
+                    <p>I've worked on a variety of projects, ranging from 
+                        web applications, android apps, as well as</p>
+                    <p>Desktop systems. For any enquiry please feel free to contact me.</p><br><br>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                  
+  <!-- ---------Skills content------------------------- -->
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Design Web/App interfaces</li>
+                            <li><span>Web Development</span><br>Web app Development</li>
+                            <li><span>App Development</span><br>Building Android and Desktop apps</li>
+                            <li><span>Databases</span><br>Design and structure Databases</li>
+                        </ul>
+                    </div>
+  <!-- --------Experience content-------------------- -->
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2023</span><br>Software Support Engineer at Konica Minolta SA</li>
+                            <li><span>2022</span><br>Apprenticeship Front-End developer for Imbizo Foundation </li>
+                        </ul>
+                    </div>
+  <!-- ------------Education section------------------------- -->
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2020 - 2022</span><br>Bachelors of Computer in Application Development at IIE Varsity College</li>
+                            <li><span>2019</span><br>Higher Certificate in IT Support at IIE Varsity College</li>
+                            <li><span>2017</span><br>Matric at Brettonwood High School</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- services section design -->
+    <section class="services" id="services">
+        <h1 class="heading">My <span>Services</span></h1>
+
+        <div class="services-container">
+            <div class="services-box">
+                <i class="fa-solid fa-code"></i>
+                <h2>Websites</h2>
+                <p>I specialize in creating dynamic and
+                engaging websites that captivate audiences 
+                and drive results. With skills as a web 
+                developer I leverages cutting-edge technologies 
+                and industry best practices to deliver bespoke 
+                solutions tailored to your unique requirements. 
+                Whether you need a sleek corporate website, a 
+                robust e-commerce platform, or a captivating 
+                portfolio site, I've got the expertise to bring 
+                your vision to life.</p>
+                <a href="#" class="btn">learn more</a>
+            </div>
+
+            <div class="services-box">
+                <i class="fa-solid fa-desktop"></i>
+                <h2>Desktop Apps</h2>
+                <p>As an experienced software developer who specializes 
+                in leveraging the latest technologies and industry
+                best practices to deliver desktop applications that 
+                are robust, reliable, and user-friendly. From concept to deployment, I 
+                prioritize performance, security, and scalability 
+                to ensure your desktop application meets the highest 
+                standards. Partner with me to transform your business ideas 
+                into innovative desktop solutions </p>
+                <a href="#" class="btn">learn more</a>
+            </div>
+
+            <div class="services-box">
+                <i class="fa-brands fa-android"></i>
+                <h2>Android Apps</h2>
+                <p>I offer Android development 
+                services tailored to meet your specific needs. 
+                As an experienced developer I'm proficient 
+                in crafting high-quality, user-friendly Android 
+                apps that resonate with your target audience. 
+                Whether you're 
+                looking to build a custom app from scratch or 
+                enhance an existing one, I've got you covered. 
+                Partner with me to turn your ideas into reality 
+                and make a lasting impact in the ever-evolving 
+                Android ecosystem.</p>
+                <a href="#" class="btn">learn more</a>
+            </div>
+
+
+        </div>
+    </section>
+     <!-- ------contact section design-------->
+<section class="contact" id="contact">
+   
+        <div class="contact-container">
+            <div class="row">
+                <div class="contact-details">   
+                    <h1 class="sub-title">Contact <span>Me</span></h1>
+                    <p><i class="fa-solid fa-envelope"></i>mthobisi879.dev@gmail.com </p>
+                    <p><i class="fa-solid fa-phone"></i></i>0619374010</p><br><br><br>
+                </div>
+                <div class="content-mail">
+                    <form id="myForm"  action="https://formspree.io/f/mbjnaewk" method="POST">
+                        <input id="fullName" type="text" name="Name" placeholder="Full Name" required>
+                        <input id="email" type="email" name="email" placeholder="Your Email" required>
+                        <!-- <select name="services-options" placeholder="Choose your service">
+                            <option value class="placeholder" disabled selected="selected">Choose your service</option>
+                            <option value="Web Development">Web Development</option>
+                            <option value="Software Development">Software Development</option>
+                            <option value="Funding">Funding</option>
+                            <option value="Other">Other</option>
+                        </select> -->
+                        <textarea id="message" name="Message" rows="6" aria-placeholder="Message"></textarea>  
+                        <button type="submit" class="btn" onclick="clearInputs()">Send</button>
+                    </form>
+                </div> 
+            </div>
+        </div> 
+        <a href="#" class="scroll-top">
+            <i class="fa-solid fa-circle-arrow-up"></i>
+        </a>
+        <a href="https://wa.me/27619374010"  target="_blank" class="whatsapp_float"><i class="fa-brands fa-whatsapp whatsapp-icon"></i></a>  
+    </section>
+    
+    <div class="copyright">
+        <p>© Copyright <span id="year"></span> Mthobisi Maseko.| All Rights Reserved.</p>
+    </div>
+    
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- custom javascript -->
+   <script src="script.js"></script>
+</body>
+</html>
